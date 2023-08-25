@@ -1,0 +1,127 @@
+:root {
+  --color-palette-neutral-n900: #333333;
+  --color-palette-neutral-n800: #4d4d4d;
+  --color-palette-neutral-n700: #666666;
+  --color-palette-neutral-n600: #808080;
+  --color-palette-neutral-n500: #999999;
+  --color-palette-neutral-n400: #b3b3b3;
+  --color-palette-neutral-n300: #cccccc;
+  --color-palette-neutral-n200: #e6e6e6;
+  --color-palette-neutral-n100: #ffffff;
+  --color-palette-teal-t500: #02fdd3;
+  --color-palette-teal-t400: #35fddf;
+  --color-palette-teal-t300: #97feed;
+  --color-palette-teal-t200: #b8fef3;
+  --color-palette-teal-t100: #d7fff8;
+
+  --color-text-dark-regular: var(--color-palette-neutral-n900);
+  --color-text-dark-hover: var(--color-palette-neutral-n800);
+  --color-text-dark-disabled: var(--color-palette-neutral-n400);
+  --color-text-gray-regular: var(--color-palette-neutral-n700);
+  --color-text-gray-hover: var(--color-palette-neutral-n600);
+  --color-text-gray-disabled: var(--color-palette-neutral-n400);
+  --color-text-light-regular: var(--color-palette-neutral-n300);
+  --color-text-light-hover: var(--color-palette-neutral-n200);
+  --color-text-light-disabled: var(--color-palette-neutral-n400);
+  --color-text-primary-regular: var(--color-palette-teal-t500);
+  --color-text-primary-hover: var(--color-palette-teal-t400);
+  --color-text-primary-disabled: var(--color-palette-neutral-n400);
+
+  --color-stroke-dark-regular: var(--color-palette-neutral-n900);
+  --color-stroke-dark-hover: var(--color-palette-neutral-n800);
+  --color-stroke-dark-disabled: var(--color-palette-neutral-n400);
+  --color-stroke-gray-regular: var(--color-palette-neutral-n700);
+  --color-stroke-gray-hover: var(--color-palette-neutral-n600);
+  --color-stroke-gray-disabled: var(--color-palette-neutral-n400);
+  --color-stroke-light-regular: var(--color-palette-neutral-n300);
+  --color-stroke-light-hover: var(--color-palette-neutral-n200);
+  --color-stroke-light-disabled: var(--color-palette-neutral-n400);
+  --color-stroke-primary-regular: var(--color-palette-teal-t500);
+  --color-stroke-primary-hover: var(--color-palette-teal-t400);
+  --color-stroke-primary-focus: var(--color-palette-teal-t400);
+  --color-stroke-primary-disabled: var(--color-palette-neutral-n400);
+
+  --color-surface-dark-regular: var(--color-palette-neutral-n900);
+  --color-surface-dark-hover: var(--color-palette-neutral-n800);
+  --color-surface-dark-clear: var(--color-palette-neutral-n600);
+  --color-surface-dark-disabled: var(--color-palette-neutral-n400);
+  --color-surface-gray-regular: var(--color-palette-neutral-n700);
+  --color-surface-gray-hover: var(--color-palette-neutral-n600);
+  --color-surface-gray-clear: var(--color-palette-neutral-n300);
+  --color-surface-gray-disabled: var(--color-palette-neutral-n400);
+  --color-surface-light-regular: var(--color-palette-neutral-n300);
+  --color-surface-light-hover: var(--color-palette-neutral-n200);
+  --color-surface-light-clear: var(--color-palette-neutral-n100);
+  --color-surface-light-disabled: var(--color-palette-neutral-n400);
+  --color-surface-primary-regular: var(--color-palette-teal-t500);
+  --color-surface-primary-hover: var(--color-palette-teal-t400);
+  --color-surface-primary-clear: var(--color-palette-teal-t100);
+  --color-surface-primary-disabled: var(--color-palette-neutral-n400);
+}
+
+/* Typography */
+.displayLarge {
+  font-size: 57px;
+  line-height: 64px;
+}
+
+.displayMedium {
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.displaySmall {
+  font-size: 36px;
+  line-height: 44px;
+}
+.headlineLarge {
+  font-size: 32px;
+  line-height: 40px;
+}
+.headlineMedium {
+  font-size: 28px;
+  line-height: 36px;
+}
+.headlineSmall {
+  font-size: 24px;
+  line-height: 32px;
+}
+.titleLarge {
+  font-size: 22px;
+  line-height: 28px;
+}
+.titleMedium {
+  font-size: 16px;
+  line-height: 24px;
+}
+.titleSmall {
+  font-size: 14px;
+  line-height: 20px;
+}
+.bodyLarge {
+  font-size: 16px;
+  line-height: 24px;
+}
+.bodyMedium {
+  font-size: 14px;
+  line-height: 20px;
+}
+.bodySmall {
+  font-size: 12px;
+  line-height: 16px;
+}
+.labelLarge {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.labelMedium {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.labelSmall {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: bold;
+}
